@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D2ABA31BAF856B004EC5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2ABA21BAF856B004EC5AC /* AppDelegate.swift */; };
+		55D2ABA51BAF856B004EC5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2ABA41BAF856B004EC5AC /* ViewController.swift */; };
+		55D2ABA81BAF856B004EC5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D2ABA61BAF856B004EC5AC /* Main.storyboard */; };
+		55D2ABAA1BAF856B004EC5AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D2ABA91BAF856B004EC5AC /* Images.xcassets */; };
+		55D2ABAD1BAF856B004EC5AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D2ABAB1BAF856B004EC5AC /* LaunchScreen.xib */; };
+		55D2ABB91BAF856B004EC5AC /* Tablas_de_MultiplicarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2ABB81BAF856B004EC5AC /* Tablas_de_MultiplicarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D2ABB31BAF856B004EC5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D2AB951BAF856B004EC5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D2AB9C1BAF856B004EC5AC;
+			remoteInfo = "Tablas de Multiplicar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55D2AB9D1BAF856B004EC5AC /* Tablas de Multiplicar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tablas de Multiplicar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D2ABA11BAF856B004EC5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D2ABA21BAF856B004EC5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55D2ABA41BAF856B004EC5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D2ABA71BAF856B004EC5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D2ABA91BAF856B004EC5AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55D2ABAC1BAF856B004EC5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55D2ABB21BAF856B004EC5AC /* Tablas de MultiplicarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tablas de MultiplicarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D2ABB71BAF856B004EC5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D2ABB81BAF856B004EC5AC /* Tablas_de_MultiplicarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablas_de_MultiplicarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D2AB9A1BAF856B004EC5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2ABAF1BAF856B004EC5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D2AB941BAF856B004EC5AC = {
+			isa = PBXGroup;
+			children = (
+				55D2AB9F1BAF856B004EC5AC /* Tablas de Multiplicar */,
+				55D2ABB51BAF856B004EC5AC /* Tablas de MultiplicarTests */,
+				55D2AB9E1BAF856B004EC5AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D2AB9E1BAF856B004EC5AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D2AB9D1BAF856B004EC5AC /* Tablas de Multiplicar.app */,
+				55D2ABB21BAF856B004EC5AC /* Tablas de MultiplicarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D2AB9F1BAF856B004EC5AC /* Tablas de Multiplicar */ = {
+			isa = PBXGroup;
+			children = (
+				55D2ABA21BAF856B004EC5AC /* AppDelegate.swift */,
+				55D2ABA41BAF856B004EC5AC /* ViewController.swift */,
+				55D2ABA61BAF856B004EC5AC /* Main.storyboard */,
+				55D2ABA91BAF856B004EC5AC /* Images.xcassets */,
+				55D2ABAB1BAF856B004EC5AC /* LaunchScreen.xib */,
+				55D2ABA01BAF856B004EC5AC /* Supporting Files */,
+			);
+			path = "Tablas de Multiplicar";
+			sourceTree = "<group>";
+		};
+		55D2ABA01BAF856B004EC5AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D2ABA11BAF856B004EC5AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55D2ABB51BAF856B004EC5AC /* Tablas de MultiplicarTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D2ABB81BAF856B004EC5AC /* Tablas_de_MultiplicarTests.swift */,
+				55D2ABB61BAF856B004EC5AC /* Supporting Files */,
+			);
+			path = "Tablas de MultiplicarTests";
+			sourceTree = "<group>";
+		};
+		55D2ABB61BAF856B004EC5AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D2ABB71BAF856B004EC5AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D2AB9C1BAF856B004EC5AC /* Tablas de Multiplicar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D2ABBC1BAF856B004EC5AC /* Build configuration list for PBXNativeTarget "Tablas de Multiplicar" */;
+			buildPhases = (
+				55D2AB991BAF856B004EC5AC /* Sources */,
+				55D2AB9A1BAF856B004EC5AC /* Frameworks */,
+				55D2AB9B1BAF856B004EC5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablas de Multiplicar";
+			productName = "Tablas de Multiplicar";
+			productReference = 55D2AB9D1BAF856B004EC5AC /* Tablas de Multiplicar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D2ABB11BAF856B004EC5AC /* Tablas de MultiplicarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D2ABBF1BAF856B004EC5AC /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarTests" */;
+			buildPhases = (
+				55D2ABAE1BAF856B004EC5AC /* Sources */,
+				55D2ABAF1BAF856B004EC5AC /* Frameworks */,
+				55D2ABB01BAF856B004EC5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D2ABB41BAF856B004EC5AC /* PBXTargetDependency */,
+			);
+			name = "Tablas de MultiplicarTests";
+			productName = "Tablas de MultiplicarTests";
+			productReference = 55D2ABB21BAF856B004EC5AC /* Tablas de MultiplicarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D2AB951BAF856B004EC5AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = cCeo;
+				TargetAttributes = {
+					55D2AB9C1BAF856B004EC5AC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					55D2ABB11BAF856B004EC5AC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 55D2AB9C1BAF856B004EC5AC;
+					};
+				};
+			};
+			buildConfigurationList = 55D2AB981BAF856B004EC5AC /* Build configuration list for PBXProject "Tablas de Multiplicar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D2AB941BAF856B004EC5AC;
+			productRefGroup = 55D2AB9E1BAF856B004EC5AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D2AB9C1BAF856B004EC5AC /* Tablas de Multiplicar */,
+				55D2ABB11BAF856B004EC5AC /* Tablas de MultiplicarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D2AB9B1BAF856B004EC5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D2ABA81BAF856B004EC5AC /* Main.storyboard in Resources */,
+				55D2ABAD1BAF856B004EC5AC /* LaunchScreen.xib in Resources */,
+				55D2ABAA1BAF856B004EC5AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2ABB01BAF856B004EC5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D2AB991BAF856B004EC5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D2ABA51BAF856B004EC5AC /* ViewController.swift in Sources */,
+				55D2ABA31BAF856B004EC5AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2ABAE1BAF856B004EC5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D2ABB91BAF856B004EC5AC /* Tablas_de_MultiplicarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D2ABB41BAF856B004EC5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D2AB9C1BAF856B004EC5AC /* Tablas de Multiplicar */;
+			targetProxy = 55D2ABB31BAF856B004EC5AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55D2ABA61BAF856B004EC5AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D2ABA71BAF856B004EC5AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55D2ABAB1BAF856B004EC5AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D2ABAC1BAF856B004EC5AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D2ABBA1BAF856B004EC5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55D2ABBB1BAF856B004EC5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D2ABBD1BAF856B004EC5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablas de Multiplicar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55D2ABBE1BAF856B004EC5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tablas de Multiplicar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55D2ABC01BAF856B004EC5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tablas de MultiplicarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablas de Multiplicar.app/Tablas de Multiplicar";
+			};
+			name = Debug;
+		};
+		55D2ABC11BAF856B004EC5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tablas de MultiplicarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablas de Multiplicar.app/Tablas de Multiplicar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D2AB981BAF856B004EC5AC /* Build configuration list for PBXProject "Tablas de Multiplicar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D2ABBA1BAF856B004EC5AC /* Debug */,
+				55D2ABBB1BAF856B004EC5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D2ABBC1BAF856B004EC5AC /* Build configuration list for PBXNativeTarget "Tablas de Multiplicar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D2ABBD1BAF856B004EC5AC /* Debug */,
+				55D2ABBE1BAF856B004EC5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55D2ABBF1BAF856B004EC5AC /* Build configuration list for PBXNativeTarget "Tablas de MultiplicarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D2ABC01BAF856B004EC5AC /* Debug */,
+				55D2ABC11BAF856B004EC5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D2AB951BAF856B004EC5AC /* Project object */;
+}
